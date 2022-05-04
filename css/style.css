@@ -1,0 +1,768 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to left,#3a7bd5,#3a6073);
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+    background-image: url(../imagenes/imagenfondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.header__logo{
+    display: none;
+}
+
+.logo{
+    display: none;
+}
+
+nav{
+    align-self: center;
+    width: 100%;
+    height: 200px;
+    color: black;
+    background-color: transparent;
+    
+}
+
+h2{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    padding: 10px 60px 10px 60px;
+    margin: 20px 150px 20px 150px;
+    border: 5px solid black;
+    border-radius: 5px;
+    background-image: linear-gradient(to left,rgb(136, 136, 241), white);
+    }
+
+h3{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    margin: 0 20px 0px 20px;
+    padding: 10px 10px 10px 10px;
+    border: 5px solid black;
+    border-radius: 5px;
+    background-image: linear-gradient(to left,rgb(136, 136, 241), white);
+}
+
+h4{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    margin: 0 200px 0px 200px;
+    padding: 10px 10px 10px 10px;
+    border: 5px solid black;
+    border-radius: 5px;
+    background-image: linear-gradient(to left,rgb(136, 136, 241), white);
+}
+
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size:16px;
+    font-style: italic;
+    color: rgb(226, 233, 239);
+    margin: 60px 60px 60px 60px;
+}
+
+.imgmenu{
+    display: none;
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+
+.nav__lista{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    color: black;
+}
+
+.nav__enlace{
+    font-style: italic;
+    font-size: 26px;
+    align-self: center;
+}
+
+.nav__enlaceC{
+    display: none;
+}
+
+
+a{
+    color: whitesmoke;
+}
+
+a:hover{
+    color: black;
+}   
+
+
+.servicio__inout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin:40px 40px 40px 40px;
+    list-style-type: none;
+}       
+
+.servicios__indoor{
+    width: 50%;
+    margin: 10px 0 10px 0;
+    align-self: flex-start;
+}
+
+.servicio__divlistin{
+    margin: 10px 20px 10px 20px;
+    text-align: center;
+    color: rgb(226, 233, 239);
+    font-size: 16px;
+    font-style: italic;
+    align-self: center;
+    list-style-type: none;
+}
+
+.servicios__outdoor{
+    width: 50%;
+    margin: 10px 0 10px 0 ;
+    align-self: flex-start;
+}
+
+.servicio__divlistou{ 
+    margin: 10px 20px 10px 20px;
+    text-align: center;
+    color: rgb(226, 233, 239);
+    font-size: 16px;
+    font-style: italic;
+    align-self: center;
+    list-style-type: none;
+}
+
+.grid{
+    width:99%;
+    height: 99%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(4fr);
+    grid-template-rows: repeat(3fr);
+    grid-template-areas: 
+    "ele1 ele2 ele3 ele4"
+    "ele5 ele6 ele7 ele8 "
+    "ele9 ele10 ele11 ele12";
+    justify-content: stretch; 
+    gap: 20px;
+    }
+
+.grid__hijo1{
+    width: 80%;
+    height: 80%;
+    grid-area: ele1;
+    border: solid black ;
+    border-radius: 6px;
+    margin: 20px 10px 10px 20px;
+    overflow: inherit;
+    align-self: stretch;
+    justify-self: stretch;
+    }
+    
+
+.grid__hijo2{
+    width: 80%;
+    height: 80%;
+    grid-area: ele2;
+    border: solid black ;
+    border-radius: 6px;
+    margin: 20px 10px 10px 20px;
+    overflow: inherit;
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+.grid__hijo3{
+    width: 80%;
+    height: 80%;
+    grid-area: ele3;
+    border: solid black ;
+    border-radius: 6px;
+    margin: 20px 10px 10px 20px;
+    overflow: inherit;
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+.grid__hijo4{
+    width: 80%;
+    height: 80%;
+    grid-area: ele4;
+    border: solid black ;
+    border-radius: 6px;
+    margin: 20px 20px 10px 20px;
+    overflow: inherit;
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+.grid__hijo5{
+    width: 80%;
+    height: 80%;
+    grid-area: ele5;
+    border: solid black ;
+    border-radius: 6px;
+    margin: 20px 10px 10px 20px;
+    overflow: inherit;
+    align-self: stretch;
+    justify-self: stretch;
+
+}
+.grid__hijo6{
+    width: 80%;
+    height: 70%;
+    grid-area: ele6;
+    border: solid black ;
+    border-radius: 6px;
+    margin: 20px 10px 10px 20px;
+    overflow: inherit;
+    align-self: center;
+
+}
+.grid__hijo7{
+    width: 80%;
+    height: 80%;
+    grid-area: ele7;
+    border: solid black ;
+    border-radius: 6px;
+    margin: 20px 10px 10px 20px;
+    overflow: inherit;
+    align-self: stretch;
+    justify-self: stretch;
+
+}
+.grid__hijo8{
+    width: 80%;
+    height: 80%;
+    grid-area: ele8;
+    border: solid black ;
+    border-radius: 6px;
+    margin: 20px 20px 10px 20px;
+    overflow: inherit;
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+.grid__hijo9{
+    width: 80%;
+    height: 50%;
+    grid-area: ele9;
+    border: solid black ;
+    border-radius: 6px;
+    margin: 20px 10px 20px 20px;
+    overflow: inherit;
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+.grid__hijo10{
+    width: 80%;
+    height: 60%;
+    grid-area: ele10;
+    border: solid black ;
+    border-radius: 6px;
+    margin: 20px 10px 20px 20px;
+    overflow: inherit;
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+.grid__hijo11{
+    width: 80%;
+    height: 60%;
+    grid-area: ele11;
+    border: solid black ;
+    border-radius: 6px;
+    margin: 20px 10px 20px 20px;
+    overflow: inherit;
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+.grid__hijo12{
+    width: 60%;
+    height: 80%;
+    grid-area: ele12;
+    border: solid black ;
+    border-radius: 6px;
+    margin: 20px 20px 20px 20px;
+    overflow: inherit;
+    justify-self: center;
+}
+.section__pedido{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pedido__nombre{
+    align-self: center;
+    margin: 5px 0 5px 0;
+    display: block;
+}
+
+.pedido__apellido{
+    align-self: center;
+    margin: 5px 0 5px 0;
+    display: block;
+}
+
+.pedido__dni{
+    align-self: center;
+    margin: 5px 0 5px 0;
+    display: block;
+}
+
+.pedido__fechanac{
+    align-self: center;
+    margin: 5px 0 5px 0;
+    display: block;
+}
+
+.pedido__email{
+    align-self: center;
+    margin: 5px 0 5px 0;
+    display: block;
+}
+
+.pedido__ok{
+    align-self: center;
+    margin: 5px 0 5px 0;
+    display: block;
+}
+
+.form__pedido{
+    align-self: center;
+    margin: 5px 0 5px 0;
+    display: block;
+}
+
+.div__contacto{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nombre__form{
+    align-self: center;
+    margin: 5px 0 5px 0;
+    display: block;
+}
+
+.apellido__form{
+    align-self: center;
+    margin: 5px 0 5px 0;
+    display: block;
+}
+
+.email__form{
+    align-self: center;
+    margin: 5px 0 5px 0;
+    display: block;
+}
+
+.consulta__form{
+    align-self: center ;
+    margin: 5px 0 5px 0;
+    display: block;
+}
+
+footer {
+    width: 100%;
+    height: 400px;
+}
+
+.footer{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} 
+
+.iframe__mapa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 60%;
+    align-self: center;
+}
+
+.iframe{
+    align-self: center;
+}
+
+.link__facebook{
+    width: 40%;
+    height: 60%;
+    align-self: center;
+
+}
+
+.link__instagram{
+    width: 40%;
+    height: 60%;
+    align-self: center;
+
+}
+
+.link__whatsapp{
+    width: auto;
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+}
+
+.qr__contacto{
+    width: 40%;
+    height: 60%;
+    align-self: center;
+
+}
+
+.qr__directo{
+    margin: 0%;
+    padding: 0%;
+    text-align: left;
+}
+
+
+#gradient{
+    background-image: linear-gradient(to left,#3a7bd5,#3a6073);
+
+}
+
+
+@media screen and (max-width: 1023px){
+    
+    body{
+        background: linear-gradient(#f69d3c, #3f87a6);
+        height: 150vh;
+    }
+
+    .nav__enlaceC{
+        display: none;
+    }
+
+    .footer{
+        width: 80%;
+        height: 100px;
+        margin: 0    auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    } 
+
+    .iframe__mapa{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 670px;
+        height: 100px;
+        margin: auto;
+    }
+
+    .iframe{
+        width: 353px;
+        height: 81px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    
+    .link__facebook{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        align-self: center;
+        
+    }
+    
+    .link__instagram{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        align-self: center;
+
+    }
+    
+    .link__whatsapp{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        align-self: center;
+        position: unset;
+    }
+    
+    .qr__contacto{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        margin-left: 30px;
+        align-self: center;
+    }
+    
+    .qr__directo{
+        height: 10%;
+        padding: 0%;
+        margin: auto;
+        text-align: center;
+        display: inline;
+        
+    }
+    .padding{
+        overflow: hidden;
+        width: 60px;
+        height: 60px;
+    }
+    
+    
+}
+@media screen and (max-width: 600px) {
+        
+    body{
+        height: 151vh;
+        background: linear-gradient(#f69d3c, #3f87a6);
+    }
+    
+    .header{
+        height: 39px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-image:none
+    }
+    
+    .header__logo{
+        display: none;
+
+    }
+
+    .header__open{
+        display: block;
+    }
+
+    .logo{
+        display: block;
+    }
+
+    #lateral{
+        width: 30%;
+        height: 100vh;
+        display: block;
+        background-color: red;
+        position: fixed;
+        top: 0%;
+        left: 100%;
+        transition: right 1s ;
+        z-index: 100;
+    }
+
+    #lateral:target{
+        left: 0;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .nav__lista{
+        flex-direction: column;
+    }
+
+    .nav__enlace{
+        font-size: 16px;
+    }
+
+    .nav__enlaceC{
+        display: block;
+        align-self: center;
+    }
+
+    .mobile{
+        display: block;
+        text-align: center;
+        margin: none;
+    }
+
+    h1{
+        display: block;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    h2{
+        width: 80%;
+        display: inline-block ;
+        margin: 30px 76px 30px 30px;
+        padding: 20px 20px 20px 20px;
+        text-align: center;
+        font-size: 12px;    
+    }
+
+    h3{
+        margin: 0 auto;
+        font-size: 12px;
+    }
+    
+    h4 {
+        width: 100%;
+        display: inline-block;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 12px;
+    }
+    p{
+        font-size: 8px;
+        text-align: center;
+    }
+
+    .servicio__inout{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    .servicios__indoor{
+        align-self: center;
+    }
+    
+    .servicios__outdoor{
+        align-self: center;
+    }
+
+    .grid{
+        display: block;
+        margin: auto;
+    }
+
+    #gradient div{
+        overflow: hidden;
+    }
+
+    div img{
+        margin: auto;
+    }
+
+    footer{
+        min-width: 100%;
+        height: 400px;
+    }
+
+    .footer{
+        width: 80%;
+        height: 80px;
+        margin: 0  auto;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    } 
+
+    .iframe__mapa{
+        flex-direction: row;
+    justify-content: space-around;
+    width: 530px;
+    height: 100px;
+    margin: auto;
+    }
+
+    .iframe{
+        width: 353px;
+        height: 81px;
+        overflow: hidden;
+
+    }
+    
+    .link__facebook{
+        width: 10%;
+        height: 10%;
+        margin: 0 auto;
+        align-self: flex-start;
+    }
+    
+    .link__instagram{
+        width: 10%;
+        height: 10%;
+        margin: 0 auto;
+        align-self: flex-start;
+
+    }
+    
+    .link__whatsapp{
+        width: 10%;
+        height: 10%;
+        margin: 0 auto;
+        align-self: flex-start;
+        position: unset;
+    }
+    
+    .qr__contacto{
+        width: 10%;
+        height: 10%;
+        margin: 0 auto;
+        margin-left: 30px;
+        align-self: flex-start;
+    }
+    
+    .qr__directo{
+        height: 10%;
+        padding: 0%;
+        margin: auto;
+        text-align: center;
+        display: inline;
+        
+    }
+    .padding{
+        overflow: hidden;
+        width: 40px;
+        height: 40px;
+    }
+    
+    
+}
