@@ -705,9 +705,9 @@ footer {
     } 
 
     .iframe__mapa{
-        flex-direction: row;
+    flex-direction: row;
     justify-content: space-around;
-    width: 530px;
+    width: 400px;
     height: 100px;
     margin: auto;
     }
