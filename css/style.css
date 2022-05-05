@@ -470,7 +470,7 @@ footer {
 .qr__directo{
     margin: 0%;
     padding: 0%;
-    text-align: left;
+    text-align: center;
 }
 
 
@@ -743,7 +743,7 @@ footer {
     }
     
     .qr__contacto{
-        width: 10%;
+        width: 13%;
         height: 10%;
         margin: 0 auto;
         margin-left: 30px;
@@ -751,11 +751,7 @@ footer {
     }
     
     .qr__directo{
-        height: 10%;
-        padding: 0%;
-        margin: auto;
-        text-align: center;
-        display: inline;
+        display: none;
         
     }
     .padding{
