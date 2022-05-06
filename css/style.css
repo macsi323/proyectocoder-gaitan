@@ -169,12 +169,6 @@ a:hover{
     list-style-type: none;
 }
 
-.grid img{
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
 .grid{
     width:99%;
     height: 99%;
@@ -191,15 +185,24 @@ a:hover{
     gap: 10px;
     }
 
+.grid img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* object-fit: cover.... para que no se distorsione img */
+    object-fit: cover; 
+    transition: 1s;
+    }    
 
+img:hover{
+    transform: scale(1.2 );
+}
 
 .grid__hijo1{
     width: 100%;
     height: 100%;
     grid-area: ele1;
-    border: solid black ;
     border-radius: 6px;
-    margin: 0 auto;
     overflow: hidden;
     align-self: stretch;
     justify-self: stretch;
@@ -210,9 +213,7 @@ a:hover{
     width: 100%;
     height: 100%;
     grid-area: ele2;
-    border: solid black ;
     border-radius: 6px;
-    margin: 0 auto;
     overflow: hidden;
     align-self: stretch;
     justify-self: stretch;
@@ -222,9 +223,7 @@ a:hover{
     width: 100%;
     height: 100%;
     grid-area: ele3;
-    border: solid black ;
     border-radius: 6px;
-    margin: 0 auto;
     overflow: hidden;
     align-self: stretch;
     justify-self: stretch;
@@ -234,9 +233,7 @@ a:hover{
     width: 100%;
     height: 100%;
     grid-area: ele4;
-    border: solid black ;
     border-radius: 6px;
-    margin: 0 auto;
     overflow: hidden;
     align-self: stretch;
     justify-self: stretch;
@@ -246,9 +243,7 @@ a:hover{
     width: 100%;
     height: 100%;
     grid-area: ele5;
-    border: solid black ;
     border-radius: 6px;
-    margin: 0 auto;
     overflow: hidden;
     align-self: stretch;
     justify-self: stretch;
@@ -258,9 +253,7 @@ a:hover{
     width: 100%;
     height: 100%;
     grid-area: ele6;
-    border: solid black ;
     border-radius: 6px;
-    margin: 0 auto;
     overflow: hidden;
     align-self: center;
 
@@ -269,9 +262,7 @@ a:hover{
     width: 100%;
     height: 100%;
     grid-area: ele7;
-    border: solid black ;
     border-radius: 6px;
-    margin: 0 auto;
     overflow: hidden;
     align-self: stretch;
     justify-self: stretch;
@@ -281,9 +272,7 @@ a:hover{
     width: 100%;
     height: 100%;
     grid-area: ele8;
-    border: solid black ;
     border-radius: 6px;
-    margin: 0 auto;
     overflow: hidden;
     align-self: stretch;
     justify-self: stretch;
@@ -293,9 +282,7 @@ a:hover{
     width: 100%;
     height: 50%;
     grid-area: ele9;
-    border: solid black ;
     border-radius: 6px;
-    margin: 0 auto;
     overflow: hidden;
     align-self: center;
     justify-self: stretch;
@@ -305,9 +292,7 @@ a:hover{
     width: 100%;
     height: 60%;
     grid-area: ele10;
-    border: solid black ;
     border-radius: 6px;
-    margin: 0 auto;
     overflow: hidden;
     align-self: center;
     justify-self: stretch;
@@ -317,9 +302,7 @@ a:hover{
     width: 100%;
     height: 70%;
     grid-area: ele11;
-    border: solid black ;
     border-radius: 6px;
-    margin: 0 auto;
     overflow: hidden;
     align-self: center;
     justify-self: stretch;
@@ -329,9 +312,7 @@ a:hover{
     width: 100%;
     height: 100%;
     grid-area: ele12;
-    border: solid black ;
     border-radius: 6px;
-    margin: 0 auto;
     overflow: hidden;
     justify-self: center;
 }
