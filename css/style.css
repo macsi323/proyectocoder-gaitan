@@ -191,7 +191,7 @@ a:hover{
     overflow: hidden;
     /* object-fit: cover.... para que no se distorsione img */
     object-fit: cover; 
-    transition: 1s;
+    transition: 2s;
     }    
 
 img:hover{
