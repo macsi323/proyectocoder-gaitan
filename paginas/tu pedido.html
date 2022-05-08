@@ -15,72 +15,83 @@
         </a>
     
             <a href="#lateral" class="header__open">
-                <img class="logo" src="../proyectocoder-gaitan/imagenes/menu.png" alt="" width="40px" height="40px">
+                <img class="logo" src="..//imagenes/menu.png" alt="" width="40px" height="40px">
             </a>
     
-        <nav class="nav" id="lateral"> 
-            <ul class="nav__lista">
-                    <li class="nav__enlace"><a href="../index.html"><strong>Inicio</strong> </a></li>
-                    <li class="nav__enlace"><a href="servicios.html"><strong>Servicios</strong></a></li>
-                    <li class="nav__enlace"><a href="fotos.html"><strong>Fotos</strong></a></li>
-                    <li class="nav__enlace"><a href="tu pedido.html"><strong>Tu pedido</strong></a></li=>
-                    <li class="nav__enlace"><a href="contacto.html"><strong>Contacto</strong></a></li=>
-                    <li class="nav__enlaceC"><a href="../index.html"><strong>Cerrar</strong></a>
+            <nav class="nav" id="lateral"> 
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html"><strong>Inicio</strong> </a>
                     </li>
-            </ul>
-        </nav>
+                    <li class="nav-item">
+                    <a class="nav-link" href="servicios.html"><strong>Servicios</strong> </a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="fotos.html"><strong>Fotos</strong> </a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="tu pedido.html"><strong>Tu Pedido</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html"><strong>Contacto</strong> </a>
+                    </li>
+                </ul>
+            </nav>
     </header>
     <h2> <strong>Tu Pedido</strong></h2>
 <section>
             <form action="" class="section__pedido">
-                <input type="text" class="pedido__nombre"  name="" id="" placeholder="nombre" required>
-                <input type="text" class="pedido__apellido" name="" id="" placeholder="apellido" required>
-                <input type="number" class="pedido__dni" name="" id="" placeholder="dni"required>
-                <input type="date" class="pedido__fechanac" name="" id="" placeholder="fecha de nacimiento" required>
-                <input type="email" class="pedido__email" name="" id="" placeholder="email" required>
-                <select name="pedidook" id="" class="pedido__ok">
-                    <option value="servicioindoor">servicio Inodoor</option>
-                    <option value="serviciooutdoor">servico Outdoor</option>
-                </select>
-                <select name="pedido" class="form__pedido" id="">
-                    <option value="pedido">pedido</option>
-                    <option value="seguimiento de pedido">seguimiento de pedido</option>
-                    <option value="reclamo de pedido">reclamo de pedido</option>
-                    <textarea name="ingresar pedido/seguimiento/reclamo de pedido" id="" cols="50" rows="0" placeholder="ingresar pedido/seguimiento/reclamo de pedido"></textarea>
-                </select><br>
-                <label for="terminos y condiciones">Aceptar términos y condiciones</label>
+                <input class="form-control" type="text" value="" aria-label="readonly input example" placeholder="Nombre">
+                <input class="form-control" type="text" value="" aria-label="readonly input example" placeholder="Apellido">
+                <input class="form-control" type="number" value="" aria-label="readonly input example" placeholder="DNI" >
+                <input class="form-control" type="date" value="." aria-label="readonly input example">
+                <input class="form-control" type="text" value="" aria-label="readonly input example" placeholder="Email">
+                    <select id="servicios" class="form-select">
+                    <option>Servicio Indoor</option>
+                    <option>Servicio Outdoor</option>
+                    </select>
+                    <select id="servicios" class="form-select">
+                    <option>Pedido</option>
+                    <option>Seguimiento de pedido</option>
+                    <option value="">Reclamo de pedido</option>
+                    </select>
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Comments</label>
+                <label for="terminos y condiciones" class="terminosycond">Aceptar términos y condiciones</label>
                 <input type="checkbox" name="" id="terminos y condiciones">
-                <input type="submit" value="Enviar">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+                
             </form>
         </section>
-        <footer id="gradient">
+        <footer>
             <h2>Ubicación y Redes Sociales</h2>
             <div class="footer">
-                <div class="iframe__mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.9521936370647!2d-64.16949728479354!3d-31.41544320335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a2a3c6cc4d0b%3A0x7f16885f79f5b985!2s25%20de%20Mayo%201150%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1649293772446!5m2!1ses-419!2sar" width="250" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="iframe"></iframe>
-                </div>
-                <div class="link__facebook">
-                    <a href="https://www.facebook.com/campaign/landing.php?&campaign_id=1653388260&extra_1=s%7Cc%7C318309252364%7Ce%7Cfacebook%27%7C&placement=&creative=318309252364&keyword=facebook%27&partner_id=googlesem&extra_2=campaignid%3D1653388260%26adgroupid%3D61874672325%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-362360550869%26loc_physical_ms%3D1000126%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=EAIaIQobChMIwvy3pMf19gIVDQqRCh2mrQUEEAAYASAAEgLzBvD_BwEhttps://www.facebook.com/campaign/landing.php?&campaign_id=1653388260&extra_1=s%7Cc%7C318309252364%7Ce%7Cfacebook%27%7C&placement=&creative=318309252364&keyword=facebook%27&partner_id=googlesem&extra_2=campaignid%3D1653388260%26adgroupid%3D61874672325%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-362360550869%26loc_physical_ms%3D1000126%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=EAIaIQobChMIwvy3pMf19gIVDQqRCh2mrQUEEAAYASAAEgLzBvD_BwE" target="blank" class="padding">
-                        <img src="../imagenes/logofacebook.png" width="100" height="100" alt="" class="padding">
+            <div class="link__facebook">
+                <a href="https://www.facebook.com/campaign/landing.php?&campaign_id=1653388260&extra_1=s%7Cc%7C318309252364%7Ce%7Cfacebook%27%7C&placement=&creative=318309252364&keyword=facebook%27&partner_id=googlesem&extra_2=campaignid%3D1653388260%26adgroupid%3D61874672325%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-362360550869%26loc_physical_ms%3D1000126%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=EAIaIQobChMIwvy3pMf19gIVDQqRCh2mrQUEEAAYASAAEgLzBvD_BwEhttps://www.facebook.com/campaign/landing.php?&campaign_id=1653388260&extra_1=s%7Cc%7C318309252364%7Ce%7Cfacebook%27%7C&placement=&creative=318309252364&keyword=facebook%27&partner_id=googlesem&extra_2=campaignid%3D1653388260%26adgroupid%3D61874672325%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-362360550869%26loc_physical_ms%3D1000126%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=EAIaIQobChMIwvy3pMf19gIVDQqRCh2mrQUEEAAYASAAEgLzBvD_BwE" target="blank" class="padding">
+                        <img src="..//imagenes/logofacebook.png"  alt="" class="padding" width="100px" height="100px">
                     </a>
                 </div>
                 <div class="link__instagram">    
                     <a href="https://www.instagram.com/?hl=es" target="blank" class="padding">
-                        <img src="../imagenes/logoinstagram.png" width="100" height="100" alt="" class="padding">
+                        <img src="..//imagenes/logoinstagram.png"  alt="" class="padding" width="100px" height="100px">
                     </a>
                 </div>
                 <div class="link__whatsapp">    
                     <a href="tel:+5493517064238" target="blank">
-                        <img src="../imagenes/logowhatsapp.png" width="100" height="100" alt="">
+                        <img src="..//imagenes/logowhatsapp.png"  alt="" class="padding" width="100px" height="100px" >
                     </a>
                 </div>
                 <div class="qr__contacto">
                     <p class="qr__directo">QR Directo</p>
-                    <img src="../imagenes/qrcontacto.jpg" alt="" class="padding" width="100" height="100">
+                    <img src="..//imagenes/qrcontacto.jpg" alt="" class="padding"  width="100px" height="100px">
                 </div>
+            </div>
+        </div>
+        <div class="iframe__mapa">
+                <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.9521936370647!2d-64.16949728479354!3d-31.41544320335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a2a3c6cc4d0b%3A0x7f16885f79f5b985!2s25%20de%20Mayo%201150%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1649293772446!5m2!1ses-419!2sar" width="250" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
             </div>
                 <p>&#169 Copyright 2022 Todos los Derechos Reservados Gaitan</p>
             </footer>
-    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
