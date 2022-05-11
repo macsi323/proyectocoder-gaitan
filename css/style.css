@@ -442,7 +442,7 @@ footer {
     width: 40%;
     height: 60%;
     align-self: center;
-
+    
 }
 
 .qr__directo{
@@ -454,7 +454,7 @@ footer {
 
 #gradient{
     background-image: linear-gradient(to left,#3a7bd5,#3a6073);
-
+    
 }
 
 
@@ -464,10 +464,28 @@ footer {
         width: 100%;
         height: 150vh;
     }
+    
 
-    .nav__enlaceC{
-        display: none;
+    .navbar-expand-lg {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
     }
+    .navbar {
+        font-size: 25px;
+        font-style: italic;
+        font-weight: 500;
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    .bg-light {
+        --bs-bg-opacity: none;
+    }
+    
+
+
 
     .footer{
         width: 80%;
@@ -549,11 +567,14 @@ footer {
     }
     
     .header{
-        height: 39px;
+        height: 123px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        background-image:none
+        background-image: url(../imagenes/imagenfondo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     
     .header__logo{
@@ -562,7 +583,7 @@ footer {
     }
 
     .header__open{
-        display: block;
+        display: none;
     }
 
     .logo{
@@ -588,6 +609,28 @@ footer {
     nav{
         display: none;
         font-style: italic;
+    }
+    
+    .header__marca{
+        display: none;
+    }
+    
+    .header__logo{
+        display: none;
+    }
+    
+    .navbar{
+        
+        font-size: 25px;
+        font-style: italic;
+        font-weight: 500;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem  
     }
 
     .nav__lista{
