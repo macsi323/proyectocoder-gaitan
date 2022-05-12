@@ -104,6 +104,13 @@ a:link{
     color: black;
 }
 
+.nav-link{
+    color: #101214 !important;
+    font-size: 30px;
+    background-color: #2a5e79;
+
+}
+
 #cerrarhamburg{
     display: none;
 }
@@ -480,6 +487,11 @@ footer {
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
     }
+
+    .nav-link{
+        color: #101214 !important;
+        background-color: #2a5e79;
+    }
     .bg-light {
         --bs-bg-opacity: none;
     }
@@ -611,6 +623,12 @@ footer {
         font-style: italic;
     }
     
+    .nav-link{
+        color: #101214 !important;
+        background-color: #2a5e79;
+    }
+
+
     .header__marca{
         display: none;
     }
@@ -620,7 +638,7 @@ footer {
     }
     
     .navbar{
-        
+        width: 35%;
         font-size: 25px;
         font-style: italic;
         font-weight: 500;
