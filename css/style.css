@@ -458,6 +458,13 @@ footer {
     text-align: center;
 }
 
+.padding{
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+    transition: 3s;
+    transform: all;
+}
 
 #gradient{
     background-image: linear-gradient(to left,#3a7bd5,#3a6073);
