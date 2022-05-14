@@ -7,9 +7,16 @@
 }
 
 body{
-    background-image: linear-gradient(to left,#3a7bd5,#3a6073);
     width: 100%;
     height: 100%;
+    background-image: url(../imagenes/img-fondohumo.jpg) !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img{
+    overflow: hidden;
 }
 
 .header{
@@ -40,10 +47,10 @@ h2{
     text-align: center;
     font-style: italic;
     padding: 10px 60px 10px 60px;
-    margin: 20px 150px 20px 150px;
-    border: 5px solid black;
+    margin: 30px 150px 30px 150px;
     border-radius: 5px;
-    background-image: linear-gradient(to left,rgb(136, 136, 241), white);
+    background-image: linear-gradient(to left,rgba(136, 136, 241), white);
+    opacity: 0.8;
     }
 
 h3{
@@ -66,7 +73,6 @@ h4{
     font-style: italic;
     margin: 0 200px 0px 200px;
     padding: 10px 10px 10px 10px;
-    border: 5px solid black;
     border-radius: 5px;
     background-image: linear-gradient(to left,rgb(136, 136, 241), white);
 }
@@ -107,7 +113,9 @@ a:link{
 .nav-link{
     color: #101214 !important;
     font-size: 30px;
-    background-color: #2a5e79;
+    background-color: rgb(136, 136, 241);
+    opacity: 0.5;
+    border-radius: 5px;
 
 }
 
@@ -132,6 +140,23 @@ a:link{
 
 #cerrar{
     display: none;
+}
+
+.nav-link{
+    background-color: rgb(136, 136, 241) ;
+}
+
+ul>li, ul>ol{
+    list-style-type: none;
+    text-align: center;
+}
+
+.outdoor{
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; 
 }
 
 .servicio__inout{
@@ -200,12 +225,8 @@ a:link{
     transition: 2s;
     }    
 
-img:hover{
-    transform: scale(1.2 );
-}
-
 .grid__hijo1{
-    width: 100%;
+    width: 100%;    
     height: 100%;
     grid-area: ele1;
     border-radius: 6px;
@@ -323,11 +344,22 @@ img:hover{
     justify-self: center;
 }
 
+
 .carousel{
     width: 50%;
     margin: 0 auto;
     margin-top: 45px;
 }
+
+.carousel-inner{
+    border-radius: 20px;
+}
+
+.carousel-item>img{
+    max-height: 345px;
+    object-fit: cover;
+    }
+
 
 .section__pedido{
     width: 50%;
@@ -379,6 +411,12 @@ img:hover{
     display: block;
 }
 
+.btn-primary{
+    background-image: linear-gradient(to left,rgb(136, 136, 241), white);
+    color: black;
+    font-style: italic;
+    font-size: 20px;
+}
 
 .div__contacto{
     width: 50%;
@@ -389,7 +427,9 @@ img:hover{
     align-items: center;
 }
 
-
+textarea{
+    height: 130px;
+}
 
 footer {
     width: 100%;
@@ -411,7 +451,7 @@ footer {
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    height: 60%;
+    height: 40%;
     align-self: center;
 }
 
@@ -458,20 +498,32 @@ footer {
     text-align: center;
 }
 
-
-#gradient{
-    background-image: linear-gradient(to left,#3a7bd5,#3a6073);
-    
+.padding{
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+    transition: 3s;
+    transform: all;
 }
+
 
 
 @media screen and (max-width: 1023px){
     
-    body{
-        width: 100%;
+    body {
+        width: 100;
         height: 150vh;
+        margin: 0 auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
     }
     
+    .header{
+        height: 200px;
+        opacity: 0.8;
+    }
 
     .navbar-expand-lg {
         flex-wrap: nowrap;
@@ -575,9 +627,16 @@ footer {
 @media screen and (max-width: 600px) {
         
     body{
-        height: 150vh;
-    }
+        width: 100;
+        height: 280vh;
+        margin: 0 auto;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        }
     
+
     .header{
         height: 123px;
         display: flex;
@@ -587,6 +646,7 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        opacity: 0.8;
     }
     
     .header__logo{
@@ -704,6 +764,7 @@ footer {
     p{
         font-size: 16px;
         text-align: center;
+        margin: 30px 60px 60px 60px;
     }
 
     .servicio__inout{
