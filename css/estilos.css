@@ -205,7 +205,9 @@ a:link {
   display: grid;
   grid-template-columns: repeat(4fr);
   grid-template-rows: repeat(3fr);
-  grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8 " "ele9 ele10 ele11 ele12";
+  grid-template-areas: "ele1 ele2 ele3 ele4"
+ "ele5 ele6 ele7 ele8 "
+ "ele9 ele10 ele11 ele12";
   justify-content: stretch;
   gap: 10px;
 }
@@ -494,9 +496,13 @@ footer {
   transform: all;
 }
 
+.pfooter {
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 1023px) {
   body {
-    width: 100;
+    width: 100%;
     height: max-content;
     margin: 0 auto;
     background-position: center;
@@ -601,7 +607,7 @@ footer {
 
 @media screen and (max-width: 600px) {
   body {
-    width: 100;
+    width: 100%;
     height: max-content;
     margin: 0 auto;
     background-size: cover;
@@ -740,7 +746,6 @@ footer {
     margin: auto;
   }
   footer {
-    min-width: 100%;
     height: 400px;
   }
   .footer {
