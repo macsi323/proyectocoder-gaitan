@@ -1,0 +1,48 @@
+.outdoor{
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; 
+}
+
+.servicio__inout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin:40px 40px 40px 40px;
+    list-style-type: none;
+}       
+
+.servicios__indoor{
+    width: 50%;
+    margin: 10px 0 10px 0;
+    align-self: flex-start;
+}
+
+.servicio__divlistin{
+    margin: 10px 20px 10px 20px;
+    text-align: center;
+    color: rgb(226, 233, 239);
+    font-size: 16px;
+    font-style: italic;
+    align-self: center;
+    list-style-type: none;
+}
+
+.servicios__outdoor{
+    width: 50%;
+    margin: 10px 0 10px 0 ;
+    align-self: flex-start;
+}
+
+.servicio__divlistou{ 
+    margin: 10px 20px 10px 20px;
+    text-align: center;
+    color: rgb(226, 233, 239);
+    font-size: 16px;
+    font-style: italic;
+    align-self: center;
+    list-style-type: none;
+}
