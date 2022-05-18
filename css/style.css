@@ -352,6 +352,10 @@ a:link {
   object-fit: cover;
 }
 
+.carousel-item {
+  text-align-last: left;
+}
+
 .section__pedido {
   width: 50%;
   margin: 0 auto;
