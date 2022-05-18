@@ -73,6 +73,14 @@ footer {
     transform: all;
 }
 
+img{
+    transition: 0.5s;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+
 .pfooter{
     margin: 0 auto;
 }
