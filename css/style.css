@@ -148,6 +148,15 @@ a:link {
   background-color: #8888f1;
 }
 
+.imgindex {
+  transition: none;
+  transform: none;
+}
+
+img:hover {
+  transform: none;
+}
+
 .outdoor {
   width: 40%;
   text-align: center;
@@ -502,6 +511,10 @@ footer {
 
 img {
   transition: 0.1s;
+  width: 100%;
+  height: max-content;
+  border-radius: 20px;
+  opacity: 0.8;
 }
 
 img:hover {
