@@ -488,8 +488,8 @@ footer {
 
 .padding {
   overflow: hidden;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   transition: 3s;
   transform: all;
 }
@@ -621,6 +621,10 @@ img:hover {
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
+  header {
+    position: sticky;
+    top: 10px;
+  }
   .header {
     height: 123px;
     display: flex;
@@ -631,8 +635,6 @@ img:hover {
     background-size: cover;
     background-position: center;
     opacity: 0.8;
-    position: sticky;
-    top: 0px;
   }
   .header__logo {
     display: none;

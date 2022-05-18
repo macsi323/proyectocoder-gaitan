@@ -134,6 +134,10 @@
         background-attachment: fixed;
         }
     
+    header{
+        position: sticky;
+        top: 10px;
+    }    
 
     .header{
         height: 123px;
@@ -145,8 +149,7 @@
         background-size: cover;
         background-position: center;
         opacity: 0.8;
-        position: sticky;
-        top:0px
+        
     }
     
     .header__logo{
