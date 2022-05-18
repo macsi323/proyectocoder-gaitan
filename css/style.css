@@ -624,7 +624,7 @@ img:hover {
   }
   header {
     position: sticky;
-    top: 10px;
+    top: 1px;
   }
   .header {
     height: 123px;
