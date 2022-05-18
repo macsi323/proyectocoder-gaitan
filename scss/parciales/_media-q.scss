@@ -37,7 +37,7 @@
 
     .nav-link{
         color: #101214 !important;
-        background-color: #2a5e79;
+        background-color: #ffffff;
         opacity: 1;
     }
     .bg-light {
@@ -145,6 +145,8 @@
         background-size: cover;
         background-position: center;
         opacity: 0.8;
+        position: sticky;
+        top:0px
     }
     
     .header__logo{

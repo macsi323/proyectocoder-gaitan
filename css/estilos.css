@@ -205,9 +205,7 @@ a:link {
   display: grid;
   grid-template-columns: repeat(4fr);
   grid-template-rows: repeat(3fr);
-  grid-template-areas: "ele1 ele2 ele3 ele4"
- "ele5 ele6 ele7 ele8 "
- "ele9 ele10 ele11 ele12";
+  grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8 " "ele9 ele10 ele11 ele12";
   justify-content: stretch;
   gap: 10px;
 }
@@ -534,7 +532,7 @@ footer {
   }
   .nav-link {
     color: #101214 !important;
-    background-color: #2a5e79;
+    background-color: #ffffff;
     opacity: 1;
   }
   .bg-light {
@@ -625,6 +623,8 @@ footer {
     background-size: cover;
     background-position: center;
     opacity: 0.8;
+    position: sticky;
+    top: 0px;
   }
   .header__logo {
     display: none;
