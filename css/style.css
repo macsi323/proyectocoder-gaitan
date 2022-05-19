@@ -378,8 +378,11 @@ img {
   object-fit: cover;
 }
 
-.carousel-item {
-  text-align-last: left;
+.caja-texto {
+  width: 30%;
+  text-align: justify;
+  background-color: rgba(116, 116, 116, 0.5);
+  border-radius: 5px;
 }
 
 .section__pedido {
