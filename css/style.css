@@ -27,6 +27,7 @@ h2 {
   margin: 30px 150px 30px 150px;
   border-radius: 5px;
   background-image: linear-gradient(to left, #8888f1, white);
+  opacity: 0.8;
 }
 
 h3 {
@@ -153,7 +154,15 @@ a:link {
   transform: none;
 }
 
-img:hover {
+img {
+  transition: none;
+  width: 100%;
+  height: max-content;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+
+.imgindex:hover {
   transform: none;
 }
 
