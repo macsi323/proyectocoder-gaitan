@@ -47,8 +47,7 @@ a:link{
 .nav-link{
     color: #101214 !important;
     font-size: 30px;
-    background-color: rgb(136, 136, 241);
-    opacity: 0.8;
+    background-color: rgba(136, 136, 241, 0.7);
     border-radius: 5px;
 
 }
@@ -76,9 +75,6 @@ a:link{
     display: none;
 }
 
-.nav-link{
-    background-color: rgb(136, 136, 241) ;
-}
 
 .imgindex{
     transition: none;
