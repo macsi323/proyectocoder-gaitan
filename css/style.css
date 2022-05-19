@@ -166,6 +166,14 @@ img {
   transform: none;
 }
 
+.pindex {
+  text-align: -webkit-left;
+}
+
+.row {
+  align-items: center;
+}
+
 .outdoor {
   width: 40%;
   text-align: center;
@@ -431,6 +439,7 @@ img {
   font-style: italic;
   font-size: 20px;
   font-weight: 600;
+  opacity: 0.8;
 }
 
 .div__contacto {
