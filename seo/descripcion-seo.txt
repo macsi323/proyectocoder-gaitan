@@ -1,0 +1,6 @@
+se agregó "meta-keywords/description" en las 5 páginas
+se estiló h2 mq mobile
+se agregaron title a todas las páginas
+se agregaron margin top/bottom correspondientes para separar contenidos
+--------------FALTA AGREGAR MAPA DEL SITIO---------------------
+

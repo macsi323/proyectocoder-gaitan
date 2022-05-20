@@ -149,6 +149,7 @@
         background-size: cover;
         background-position: center;
         opacity: 0.8;
+        margin-bottom: 20px;
         
     }
     
@@ -188,8 +189,7 @@
     
     .nav-link{
         color: #101214 !important;
-        background-color: #ffffff;
-        opacity: 1;
+        background-color: rgb(104, 121, 153,);
     }
 
 
@@ -232,6 +232,11 @@
         display: block;
     }
 
+    .container{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
     .mobile{
         display: block;
         text-align: center;
@@ -245,9 +250,9 @@
     }
 
     h2{
-        width: 80%;
-        display: inline-block ;
-        margin: 30px 76px 30px 30px;
+        width: 50%;
+        display: block ;
+        margin: 0 auto;
         padding: 20px 20px 20px 20px;
         text-align: center;
         font-size: 20px;    
@@ -268,7 +273,7 @@
     p{
         font-size: 16px;
         text-align: center;
-        margin: 0 20px 0 20px;
+        margin: 20px 20px 20px 20px;
     }
 
     .servicio__inout{
@@ -298,6 +303,10 @@
         margin: auto;
     }
     
+    .section__pedido{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
     
     footer{
         height: 400px;
