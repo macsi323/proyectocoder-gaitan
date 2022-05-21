@@ -74,6 +74,10 @@ a:link{
     color: $color-titulos;
 }
 
+.navbar-nav{
+    position: sticky;
+}
+
 #cerrar{
     display: none;
 }
