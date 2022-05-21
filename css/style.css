@@ -45,14 +45,13 @@ h3 {
 
 h4 {
   display: inline-block;
-  color: black;
+  color: #34a9f7;
   font-size: 30px;
   text-align: center;
   font-style: italic;
   margin: 0 200px 0px 200px;
   padding: 10px 10px 10px 10px;
   border-radius: 5px;
-  background-image: #34a9f7;
 }
 
 p {
@@ -164,7 +163,6 @@ img {
   width: 100%;
   height: max-content;
   border-radius: 20px;
-  opacity: 0.8;
 }
 
 .imgindex:hover {
@@ -398,6 +396,10 @@ ol, ul {
   object-fit: cover;
 }
 
+.carousel-control-prev {
+  left: -73px;
+}
+
 .caja-texto {
   width: 30%;
   text-align: justify;
@@ -571,11 +573,6 @@ img {
   width: 100%;
   height: max-content;
   border-radius: 20px;
-  opacity: 0.8;
-}
-
-img:hover {
-  transform: scale(1.2);
 }
 
 .pfooter {
