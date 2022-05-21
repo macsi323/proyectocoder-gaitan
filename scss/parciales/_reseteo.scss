@@ -11,6 +11,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 } 
 
 img{
@@ -20,16 +21,20 @@ img{
 
 
 h2{
+    width: 60%;
     color: rgb(0, 0, 0);
     font-size: 30px;
     text-align: center;
     font-style: italic;
     padding: 10px 60px 10px 60px;
-    margin: 30px 150px 30px 150px;
+    margin: 0 auto;
+    margin-bottom: 70px;
     border-radius: 5px;
     background-image: $color-titulos;
     opacity: 0.8;
     }
+
+   
 
 h3{
     color: rgb(0, 0, 0);

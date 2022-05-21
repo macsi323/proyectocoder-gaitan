@@ -1,3 +1,8 @@
+.divservicios{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
 .outdoor{
     width: 40%;
     text-align: center;
@@ -45,4 +50,14 @@
     font-style: italic;
     align-self: center;
     list-style-type: none;
+}
+
+.pserv{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+ol, ul {
+    padding-left: 0rem;
 }
