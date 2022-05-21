@@ -99,3 +99,8 @@ img:hover{
     flex-direction: row;
     flex-wrap: nowrap;
 }
+
+.col-12 {
+    flex: 0 0 auto;
+    width: 50%;
+}

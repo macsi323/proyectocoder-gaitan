@@ -590,6 +590,11 @@ img:hover {
   flex-wrap: nowrap;
 }
 
+.col-12 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
 @media screen and (max-width: 1023px) {
   body {
     width: 100%;
@@ -915,6 +920,9 @@ img:hover {
   }
   .carousel-item {
     width: 100%;
+  }
+  .row {
+    flex-direction: column;
   }
 }
 /*# sourceMappingURL=style.css.map */
