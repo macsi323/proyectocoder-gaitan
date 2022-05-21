@@ -602,15 +602,6 @@ img {
   width: 50%;
 }
 
-@media (min-width: 992px) {
-  .navbar-expand-lg .navbar-collapse {
-    display: none;
-    flex-basis: none;
-    flex-grow: 1;
-    align-items: center;
-  }
-}
-
 @media screen and (max-width: 1023px) {
   body {
     margin: 0%;
@@ -836,7 +827,7 @@ img {
     margin-top: 24px;
     padding: 20px 20px 20px 20px;
     text-align: center;
-    font-size: 20px;
+    font-size: 26px;
   }
   h3 {
     margin: 0 auto;
