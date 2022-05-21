@@ -553,7 +553,6 @@ img:hover {
   }
   .header {
     height: 200px;
-    opacity: 0.8;
   }
   .navbar-expand-lg {
     flex-wrap: none;
@@ -669,8 +668,8 @@ img:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    opacity: 0.8;
     margin-bottom: 20px;
+    z-index: 100;
   }
   .header__logo {
     display: none;
