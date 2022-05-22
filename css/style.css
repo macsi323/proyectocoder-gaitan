@@ -21,10 +21,12 @@ img {
 
 h2 {
   width: 60%;
-  color: #34a9f7;
+  color: white;
+  font-family: "Koulen", cursive;
   font-size: 35px;
   text-align: center;
-  font-style: italic;
+  font-style: "Koulen", cursive;
+  text-decoration: underline;
   padding: 10px 60px 10px 60px;
   margin: 0 auto;
   margin-bottom: 70px;
@@ -40,12 +42,12 @@ h3 {
   padding: 10px 10px 10px 10px;
   border: 5px solid black;
   border-radius: 5px;
-  background-image: #34a9f7;
+  background-image: white;
 }
 
 h4 {
   display: inline-block;
-  color: #34a9f7;
+  color: white;
   font-size: 30px;
   text-align: center;
   font-style: italic;
@@ -55,10 +57,10 @@ h4 {
 }
 
 p {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Koulen", cursive;
   text-align: center;
-  font-size: 16px;
-  font-style: italic;
+  font-size: 19px;
+  font-style: "Koulen", cursive;
   color: #e2e9ef;
   margin: 20px 20px 20px 20px;
 }
@@ -72,13 +74,34 @@ ul > li, ul > ol {
   width: 100%;
   height: 250px;
   margin: 0 auto;
-  background-image: url(../imagenes/imagenfondo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.titheader {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  justify-content: center;
+}
+
+.tit__header {
+  width: 80%;
+  font-family: 'Koulen', cursive;
+  font-size: 65px;
+  text-align: center;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.tit__header2 {
+  width: 100%;
+  font-family: 'Koulen', cursive;
 }
 
 .header__logo {
@@ -137,11 +160,19 @@ a:link {
 }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
-  color: #34a9f7;
+  color: white;
+  font-family: "Koulen", cursive;
+  font-size: 32px;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #34a9f7;
+  color: white;
+  font-family: "Koulen", cursive;
+  font-size: 32px;
+}
+
+.navbar-light .navbar-toggler {
+  background-color: white;
 }
 
 .navbar-nav {
@@ -189,6 +220,8 @@ img {
 .outdoor {
   width: 40%;
   text-align: center;
+  text-decoration: underline;
+  font-family: "Koulen", cursive;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -212,9 +245,9 @@ img {
 .servicio__divlistin {
   margin: 10px 20px 10px 20px;
   text-align: center;
+  font-family: "Koulen", cursive;
   color: #e2e9ef;
   font-size: 16px;
-  font-style: italic;
   align-self: center;
   list-style-type: none;
 }
@@ -230,7 +263,7 @@ img {
   text-align: center;
   color: #e2e9ef;
   font-size: 16px;
-  font-style: italic;
+  font-family: "Koulen", cursive;
   align-self: center;
   list-style-type: none;
 }
@@ -433,6 +466,7 @@ iframe {
 .terminosycond {
   color: #d2eaff;
   font-size: 20px;
+  font-family: "Koulen", cursive;
 }
 
 .pedido__nombre {
@@ -635,7 +669,7 @@ img {
     align-content: flex-start;
   }
   .nav-link {
-    color: #34a9f7;
+    color: white;
     background-color: #517687;
     opacity: 1;
   }
@@ -748,6 +782,9 @@ img {
   .header__open {
     display: none;
   }
+  .titheader {
+    display: none;
+  }
   .logo {
     display: block;
   }
@@ -770,14 +807,9 @@ img {
     font-style: italic;
   }
   .nav-link {
-    color: #34a9f7;
-    background-color: transparent;
-  }
-  .header__marca {
-    display: none;
-  }
-  .header__logo {
-    display: none;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
   }
   .navbar {
     width: 100%;
@@ -801,6 +833,9 @@ img {
   .nav__enlaceC {
     display: block;
     align-self: center;
+  }
+  .navbar-light .navbar-toggler {
+    background-color: #5792b9;
   }
   #cerrarhamburg {
     display: block;
