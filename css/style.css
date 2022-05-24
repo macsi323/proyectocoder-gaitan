@@ -155,7 +155,6 @@ a:link {
 
 .navbar {
   font-size: 25px;
-  font-style: italic;
   font-weight: 500;
 }
 
@@ -636,7 +635,7 @@ img {
   width: 50%;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: !important 1023px) {
   body {
     margin: 0%;
     width: 110%;
@@ -836,6 +835,9 @@ img {
   }
   .navbar-light .navbar-toggler {
     background-color: #5792b9;
+  }
+  .navbar > .container-fluid {
+    width: 400px;
   }
   #cerrarhamburg {
     display: block;
