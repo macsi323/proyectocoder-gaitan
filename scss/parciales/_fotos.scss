@@ -166,7 +166,7 @@ ul > li{
 }
 
 .carousel{
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 45px;
 }
@@ -180,9 +180,7 @@ ul > li{
     object-fit: cover;
     }
 
-.carousel-control-prev {
-    left: -73px;
-    }
+
 
 iframe {
     border-radius: 20px;

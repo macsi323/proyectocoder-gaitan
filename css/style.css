@@ -442,7 +442,7 @@ ul > li {
 }
 
 .carousel {
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
   margin-top: 45px;
 }
@@ -454,10 +454,6 @@ ul > li {
 .carousel-item > img {
   max-height: 345px;
   object-fit: cover;
-}
-
-.carousel-control-prev {
-  left: -73px;
 }
 
 iframe {
@@ -531,7 +527,6 @@ iframe {
 .btn-primary {
   background-image: linear-gradient(to left, #8888f1, white);
   color: black;
-  font-style: italic;
   font-size: 20px;
   font-weight: 600;
   opacity: 0.8;
@@ -962,6 +957,14 @@ img {
     flex-direction: column-reverse;
     flex-wrap: wrap;
   }
+  .imgcard {
+    border-bottom-left-radius: 80px;
+  }
+  .card {
+    background-color: #324040;
+    height: 650px;
+    border-bottom-right-radius: 80px;
+  }
   #gradient div {
     overflow: hidden;
   }
@@ -971,6 +974,16 @@ img {
   .section__pedido {
     margin-bottom: 20px;
     margin-top: 20px;
+  }
+  .terminosycond {
+    color: #d2eaff;
+    font-size: 20px;
+    font-family: "Koulen", cursive;
+    text-align: center;
+  }
+  .btn-primary {
+    font-family: "Koulen", cursive;
+    color: white;
   }
   footer {
     height: 400px;

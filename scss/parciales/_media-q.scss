@@ -366,6 +366,16 @@
         flex-wrap: wrap;
     }
 
+    .imgcard{
+        border-bottom-left-radius: 80px;
+    }
+
+    .card{
+        background-color: #324040;
+        height: 650px;
+        border-bottom-right-radius: 80px;
+    }
+
     #gradient div{
         overflow: hidden;
     }
@@ -378,7 +388,19 @@
         margin-bottom: 20px;
         margin-top: 20px;
     }
+
+    .terminosycond{
+        color: #d2eaff;
+        font-size: 20px;
+        font-family: "Koulen", cursive;
+        text-align: center;
+    }
     
+    .btn-primary{
+        font-family: $fuente-gral;
+        color: $color-titulos;
+    }
+
     footer{
         height: 400px;
     }
