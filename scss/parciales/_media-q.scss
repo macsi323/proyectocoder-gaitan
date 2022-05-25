@@ -248,7 +248,7 @@
     }
 
     .navbar-light .navbar-toggler{
-        background-color: #ffffff;
+        background-color: #ddf8ff;
     }
 
     .navbar > .container-fluid {
@@ -271,6 +271,8 @@
         margin: none;
     }
 
+
+    
     h1{
         display: block;
         text-align: center;
@@ -303,7 +305,7 @@
     p{
         color: $color-titulos;
         font-family: $fuente-gral;
-        font-size: 16px;
+        font-size: 20px;
         text-align: center;
         margin: 20px 20px 20px 20px;
     }
@@ -315,9 +317,30 @@
         margin: 0 auto;
         padding-top: 35px;
     }
+
+    .col-12{
+        width: 80%;
+    }
     
+
+    .servicio__inout {
+        width:80%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        list-style-type: none;
+        flex-direction: column;
+    }
+
     .servicios__indoor{
         align-self: center;
+        margin: 0 auto;
+    }
+
+    .outdoor{
+        font-size: 25px;
+        width: 50%;
     }
     
     .servicios__outdoor{
