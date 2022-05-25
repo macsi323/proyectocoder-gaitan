@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap");
+.navbar-light .navbar-toggler {
+  background-color: #ddf8ff;
+}
+
 * {
   margin: 0%;
   padding: 0%;
@@ -168,10 +172,6 @@ a:link {
   color: white;
   font-family: "Koulen", cursive;
   font-size: 32px;
-}
-
-.navbar-light .navbar-toggler {
-  background-color: white;
 }
 
 .navbar-nav {
