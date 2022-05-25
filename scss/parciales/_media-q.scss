@@ -70,6 +70,16 @@
         flex-wrap: wrap;
     }
 
+    .imgcard{
+        border-bottom-left-radius: 80px;
+    }
+
+    .card{
+        background-color: #324040;
+        height: 650px;
+        border-bottom-right-radius: 80px;
+    }
+
     .footer{
         width: 80%;
         height: 100px;
@@ -374,6 +384,11 @@
         background-color: #324040;
         height: 650px;
         border-bottom-right-radius: 80px;
+    }
+
+    .carrouselgral{
+        display: flex;
+        flex-direction: column;
     }
 
     #gradient div{

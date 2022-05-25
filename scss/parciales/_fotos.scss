@@ -157,7 +157,7 @@ ul > li{
 
 .card{
     background-color: black;
-    border-radius: 30px;
+    border-bottom-right-radius: 80px
 }
 
 .card-text{
@@ -165,10 +165,15 @@ ul > li{
     font-size: 30px ;
 }
 
+.imgcard{
+    border-bottom-left-radius: 80px
+}
+
 .carousel{
     width: 100%;
     margin: 0 auto;
     margin-top: 45px;
+    padding: 20px 20px;
 }
 
 .carousel-inner{
@@ -180,7 +185,10 @@ ul > li{
     object-fit: cover;
     }
 
-
+.carrouselgral{
+    display: flex;
+    flex-direction: row;
+}
 
 iframe {
     border-radius: 20px;
