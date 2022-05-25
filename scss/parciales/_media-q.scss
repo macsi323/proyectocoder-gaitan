@@ -161,7 +161,7 @@
     }    
 
     .header{
-        height: 123px;
+        height: 130px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -301,19 +301,21 @@
         font-size: 12px;
     }
     p{
+        color: $color-titulos;
+        font-family: $fuente-gral;
         font-size: 16px;
         text-align: center;
         margin: 20px 20px 20px 20px;
     }
 
-
-
-    .servicio__inout{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    
+    .titiheader{
+        font-size: 29px;
+        width: 50%;
+        display: inline-block;
+        margin: 0 auto;
+        padding-top: 35px;
     }
+    
     .servicios__indoor{
         align-self: center;
     }
