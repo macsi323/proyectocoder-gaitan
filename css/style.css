@@ -834,10 +834,11 @@ img {
     align-self: center;
   }
   .navbar-light .navbar-toggler {
-    background-color: #5792b9;
+    background-color: #ffffff;
   }
   .navbar > .container-fluid {
     width: 400px;
+    margin: 0;
   }
   #cerrarhamburg {
     display: block;
