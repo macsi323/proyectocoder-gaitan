@@ -62,6 +62,14 @@
         margin: 0 20px 0 20px;
     }
 
+    .card-gral {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        border-radius: 30px;
+        flex-wrap: wrap;
+    }
+
     .footer{
         width: 80%;
         height: 100px;
@@ -321,6 +329,16 @@
     .grid{
         display: block;
         margin: auto;
+    }
+
+    .card-gral{
+        display: flex;
+        justify-content: space-between;
+        border-radius: 30px;
+        gap: 100px;
+        align-content: center;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
     }
 
     #gradient div{

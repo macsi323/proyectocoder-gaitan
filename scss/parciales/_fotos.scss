@@ -143,6 +143,28 @@
 }
 
 
+ul > li{
+    color: wheat;
+}
+
+.card-gral{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 30px;
+    gap: 100px;
+}
+
+.card{
+    background-color: black;
+    border-radius: 30px;
+}
+
+.card-text{
+    text-decoration: underline;
+    font-size: 30px ;
+}
+
 .carousel{
     width: 50%;
     margin: 0 auto;

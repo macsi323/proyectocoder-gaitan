@@ -32,8 +32,8 @@
     margin: 10px 20px 10px 20px;
     text-align: center;
     font-family: $fuente-gral;
-    color: rgb(226, 233, 239);
-    font-size: 16px;
+    color: $color-titulos;
+    font-size: 20px;
     align-self: center;
     list-style-type: none;
 }
@@ -47,8 +47,8 @@
 .servicio__divlistou{ 
     margin: 10px 20px 10px 20px;
     text-align: center;
-    color: rgb(226, 233, 239);
-    font-size: 16px;
+    color: $color-titulos;
+    font-size: 20px;
     font-family: $fuente-gral;
     align-self: center;
     list-style-type: none;

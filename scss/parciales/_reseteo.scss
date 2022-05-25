@@ -36,14 +36,12 @@ h2{
 
 
 h3{
-    color: rgb(0, 0, 0);
-    font-size: 40px;
+    color: $color-titulos;
+    font-size: 30px;
+    font-family: $fuente-gral;
     text-align: center;
-    font-style: italic;
     margin: 0 20px 0px 20px;
     padding: 10px 10px 10px 10px;
-    border: 5px solid black;
-    border-radius: 5px;
     background-image: $color-titulos;
 }
 
@@ -61,9 +59,9 @@ h4{
 p{
     font-family: $fuente-gral;
     text-align: center;
-    font-size: 19px;
+    font-size: 20px;
     font-style: $fuente-gral;
-    color: rgb(226, 233, 239);
+    color: $color-titulos;
     margin: 20px 20px 20px 20px;
 }
 
