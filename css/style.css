@@ -908,11 +908,11 @@ img {
     width: 50%;
     display: block;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-top: 24px;
     padding: 20px 20px 20px 20px;
     text-align: center;
-    font-size: 26px;
+    font-size: 30px;
   }
   h3 {
     margin: 0 auto;
@@ -928,7 +928,7 @@ img {
   p {
     color: white;
     font-family: "Koulen", cursive;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     margin: 20px 20px 20px 20px;
   }
