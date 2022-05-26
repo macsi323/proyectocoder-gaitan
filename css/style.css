@@ -851,7 +851,7 @@ img {
   }
   .nav-link {
     color: white;
-    background-color: black;
+    background-color: #9dcedb;
     border-radius: 20px;
   }
   .navbar {
@@ -883,6 +883,7 @@ img {
   .navbar > .container-fluid {
     width: 400px;
     margin: 0;
+    font-style: normal;
   }
   #cerrarhamburg {
     display: block;
