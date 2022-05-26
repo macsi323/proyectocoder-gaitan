@@ -432,8 +432,10 @@ ul > li {
 }
 
 .card {
-  background-color: black;
+  background-color: #46bfbc;
   border-bottom-right-radius: 80px;
+  border-top-left-radius: 80px;
+  padding-top: 62px;
 }
 
 .card-text {
@@ -980,7 +982,7 @@ img {
     border-bottom-left-radius: 80px;
   }
   .card {
-    background-color: #324040;
+    background-color: #46bfbc;
     height: 650px;
     border-bottom-right-radius: 80px;
   }

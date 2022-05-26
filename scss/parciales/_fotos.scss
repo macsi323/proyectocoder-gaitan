@@ -156,14 +156,17 @@ ul > li{
 }
 
 .card{
-    background-color: black;
-    border-bottom-right-radius: 80px
+    background-color: #46bfbc;
+    border-bottom-right-radius: 80px;
+    border-top-left-radius: 80px;
+    padding-top: 62px;
 }
 
 .card-text{
     text-decoration: underline;
     font-size: 30px ;
 }
+
 
 .imgcard{
     border-bottom-left-radius: 80px
