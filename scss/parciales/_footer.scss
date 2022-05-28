@@ -8,8 +8,8 @@ footer {
     margin: 0 auto;
     margin-bottom: 40px;
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
     padding-top: 10px;
     padding-bottom: 10px;
 } 
