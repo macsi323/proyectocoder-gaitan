@@ -231,7 +231,7 @@
     }
     
     .navbar{
-        width: 100%;
+        width: 60%;
         font-size: 25px;
         font-style: italic;
         font-weight: 500;
@@ -261,6 +261,10 @@
         background-color: #ddf8ff;
     }
 
+    .navbar-toggler{
+        font-size: 0.80rem;
+    }
+
     .navbar > .container-fluid {
         width: 400px;
         margin: 0;
@@ -282,6 +286,9 @@
         margin: none;
     }
 
+    .video-home{
+        display: none;
+    }
 
     
     h1{
