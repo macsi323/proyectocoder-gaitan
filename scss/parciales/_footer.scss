@@ -1,6 +1,6 @@
 footer {
     width: 100%;
-    height: 400px;
+    height: 700px;
 }
 
 .footer{
@@ -8,8 +8,8 @@ footer {
     margin: 0 auto;
     margin-bottom: 40px;
     display: flex;
-    flex-direction: column-reverse;
-    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: space-around;
     padding-top: 10px;
     padding-bottom: 10px;
 } 
@@ -32,16 +32,24 @@ footer {
     width: 100%;
 }
 
+.p-footer{
+    align-self: center;
+}
+
+.p__footer{
+    height: 67px;
+}
+
 .link__facebook{
     width: 20%;
-    height: 60%;
+    height: 110px;
     align-self: center;
 
 }
 
 .link__instagram{
     width: 20%;
-    height: 60%;
+    height: 110px;
     align-self: center;
 
 }
@@ -55,7 +63,7 @@ footer {
 
 .qr__contacto{
     width: 20%;
-    height: 60%;
+    height: 110px;
     align-self: center;
     
 }

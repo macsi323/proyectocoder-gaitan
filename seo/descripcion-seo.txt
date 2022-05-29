@@ -8,6 +8,7 @@ agregue !important para anular una MQ de Boostrap en 992px
 se agrega página mapa del sitio y se modifica width del navbar
 agregando background-color a map-get a icono de menú
 se agregan cards en "fotos"
+"se agregan videos en páginas y proceso de modificación footer"
 
 --------------FALTA AGREGAR MAPA DEL SITIO---------------------
 
