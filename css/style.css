@@ -906,7 +906,7 @@ img {
     height: 20%;
     margin: 0 auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
   }
@@ -923,6 +923,7 @@ img {
   }
   .redes-sociales {
     align-self: center;
+    margin-top: 30px;
   }
   .link__facebook {
     width: 10%;
