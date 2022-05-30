@@ -109,6 +109,11 @@ ul > li, ul > ol {
   font-size: 65px;
   text-align: center;
   margin: auto;
+  color: white;
+}
+
+a {
+  color: white !important;
 }
 
 .tit__header2 {
