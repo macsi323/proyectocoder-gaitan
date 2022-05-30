@@ -6,7 +6,6 @@ footer {
 .footer{
     width: 80%;
     margin: 0 auto;
-    margin-bottom: 40px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -38,6 +37,10 @@ footer {
 
 .p__footer{
     height: 67px;
+}
+
+.h2footer{
+    margin-bottom: 10px;
 }
 
 .link__facebook{
