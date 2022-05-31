@@ -498,7 +498,7 @@ footer {
 
 .link__whatsapp {
   width: auto;
-  position: fixed;
+  position: none;
   bottom: 3%;
   right: 3%;
 }
@@ -603,9 +603,11 @@ img {
   }
   .card-gral {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     border-radius: 30px;
+    gap: 100px;
     flex-wrap: wrap;
   }
   .imgcard {
@@ -651,11 +653,10 @@ img {
     align-self: center;
   }
   .link__whatsapp {
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    align-self: center;
-    position: unset;
+    width: auto;
+    /* position: fixed; */
+    bottom: 3%;
+    right: 3%;
   }
   .qr__contacto {
     width: 100%;
@@ -738,6 +739,7 @@ img {
     color: white;
     background-color: #9dcedb;
     border-radius: 20px;
+    font-family: sans-serif !important;
   }
   .navbar {
     width: 60%;
@@ -802,6 +804,7 @@ img {
     padding: 20px 20px 20px 20px;
     text-align: center;
     font-size: 30px;
+    font-family: sans-serif;
   }
   h3 {
     margin: 0 auto;
@@ -816,7 +819,7 @@ img {
   }
   p {
     color: white;
-    font-family: "Koulen", cursive;
+    font-family: sans-serif;
     font-size: 25px;
     text-align: center;
     margin: 20px 20px 20px 20px;
@@ -847,9 +850,17 @@ img {
   .outdoor {
     font-size: 25px;
     width: 50%;
+    font-family: sans-serif;
   }
   .servicios__outdoor {
     align-self: center;
+    font-family: sans-serif;
+  }
+  .servicio__divlistin {
+    font-family: sans-serif;
+  }
+  .servicio__divlistou {
+    font-family: sans-serif;
   }
   ol, ul {
     padding-left: 0rem;
@@ -871,7 +882,7 @@ img {
     border-bottom-left-radius: 80px;
   }
   .card {
-    background-color: #46bfbc;
+    background-color: rgba(61, 233, 227, 0.7);
     height: 650px;
     border-bottom-right-radius: 80px;
   }
