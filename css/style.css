@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap");
 .navbar-light .navbar-toggler {
-  background-color: #ddf8ff;
+  background-color: #297d93;
 }
 
 * {
@@ -161,6 +161,10 @@ a:link {
   border-radius: 5px;
 }
 
+.nav-item {
+  background-color: none;
+}
+
 #cerrarhamburg {
   display: none;
 }
@@ -319,6 +323,10 @@ ul > li {
 
 .imgcard {
   border-bottom-left-radius: 80px;
+}
+
+.card-body {
+  align-self: center;
 }
 
 .carousel {
@@ -498,7 +506,7 @@ footer {
 
 .link__whatsapp {
   width: auto;
-  position: none;
+  position: fixed;
   bottom: 3%;
   right: 3%;
 }
@@ -549,7 +557,7 @@ img {
   width: 50%;
 }
 
-@media screen and (max-width: !important 1023px) {
+@media screen and (max-width: 1023px !important) {
   body {
     margin: 0%;
     width: 110%;
@@ -583,7 +591,7 @@ img {
   }
   .nav-link {
     color: white;
-    background-color: #517687;
+    background-color: #528ba5;
     opacity: 1;
   }
   .bg-light {
@@ -603,12 +611,12 @@ img {
   }
   .card-gral {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     border-radius: 30px;
-    gap: 100px;
-    flex-wrap: wrap;
+    gap: 50px;
+    margin: 34px;
   }
   .imgcard {
     border-bottom-left-radius: 80px;
@@ -653,10 +661,14 @@ img {
     align-self: center;
   }
   .link__whatsapp {
-    width: auto;
-    /* position: fixed; */
-    bottom: 3%;
-    right: 3%;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    align-self: center;
+    position: none !important;
+  }
+  .link__whatsapp {
+    position: none;
   }
   .qr__contacto {
     width: 100%;
@@ -737,7 +749,7 @@ img {
   }
   .nav-link {
     color: white;
-    background-color: #9dcedb;
+    background-color: #297d93;
     border-radius: 20px;
     font-family: sans-serif !important;
   }
@@ -765,7 +777,7 @@ img {
     align-self: center;
   }
   .navbar-light .navbar-toggler {
-    background-color: #ddf8ff;
+    background-color: #297d93;
   }
   .navbar-toggler {
     font-size: 0.80rem;
