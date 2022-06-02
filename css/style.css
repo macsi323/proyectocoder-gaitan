@@ -101,11 +101,12 @@ ul > li, ul > ol {
   flex-direction: column;
   align-content: stretch;
   justify-content: center;
-  margin: 0 80px;
+  margin: 0 20px;
 }
 
 .tit__header {
   width: 80%;
+  display: block;
   font-family: 'Koulen', cursive;
   font-size: 65px;
   text-align: center;
@@ -159,10 +160,6 @@ a:link {
 .nav-link {
   font-size: 30px;
   border-radius: 5px;
-}
-
-.nav-item {
-  background-color: none;
 }
 
 #cerrarhamburg {
@@ -330,7 +327,7 @@ ul > li {
 }
 
 .carousel {
-  width: 100%;
+  width: 50%;
   margin: 0 auto;
   margin-top: 45px;
   padding: 20px 20px;
@@ -338,6 +335,8 @@ ul > li {
 
 .carousel-inner {
   border-radius: 30px;
+  width: 100%;
+  overflow: hidden;
 }
 
 .carousel-item > img {
@@ -348,6 +347,7 @@ ul > li {
 .carrouselgral {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 iframe {
@@ -508,7 +508,7 @@ footer {
   width: auto;
   position: fixed;
   bottom: 3%;
-  right: 3%;
+  right: 15px;
 }
 
 .qr__contacto {
@@ -901,6 +901,9 @@ img {
   .carrouselgral {
     display: flex;
     flex-direction: column;
+  }
+  .carousel {
+    width: 100%;
   }
   #gradient div {
     overflow: hidden;

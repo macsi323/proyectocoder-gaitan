@@ -17,11 +17,12 @@
     flex-direction: column;
     align-content: stretch;
     justify-content: center;
-    margin: 0 80px;
+    margin: 0 20px;
 }
 
 .tit__header{
     width: 80%;
+    display: block;
     font-family: 'Koulen', cursive;
     font-size: 65px;
     text-align: center;
@@ -76,9 +77,6 @@ a:link{
     border-radius: 5px;
 }
 
-.nav-item{
-    background-color: none;
-}
 #cerrarhamburg{
     display: none;
 }

@@ -32,7 +32,7 @@ ul > li{
 }
 
 .carousel{
-    width: 100%;
+    width: 50%;
     margin: 0 auto;
     margin-top: 45px;
     padding: 20px 20px;
@@ -40,6 +40,8 @@ ul > li{
 
 .carousel-inner{
     border-radius: 30px;
+    width: 100%;
+    overflow: hidden;
 }
 
 .carousel-item>img{
@@ -50,6 +52,7 @@ ul > li{
 .carrouselgral{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 iframe {
