@@ -277,7 +277,7 @@
     .terminosycond{
         color: #d2eaff;
         font-size: 20px;
-        font-family: "Koulen", cursive;
+        font-family: $fuente-gral;
         text-align: center;
     }
     
@@ -285,6 +285,7 @@
         font-family: $fuente-gral;
         color: $color-titulos;
     }
+
 
     footer{
         height: 100%;
