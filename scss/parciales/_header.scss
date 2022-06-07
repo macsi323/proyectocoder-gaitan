@@ -19,8 +19,8 @@
 .tit__header{
     width: 80%;
     display: block;
-    font-family: 'Koulen', cursive;
-    font-size: 65px;
+    font-family: $fuente-gral;
+    font-size: 73px;
     text-align: center;
     margin: auto;
     color: $color-titulos;
@@ -31,7 +31,7 @@ a{
 }
 .tit__header2{
     width: 100%;
-    font-family: 'Koulen', cursive;
+    font-family: $fuente-gral;
 }
 
 .titiheader{

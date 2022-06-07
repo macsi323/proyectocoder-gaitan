@@ -103,8 +103,8 @@ ul > li, ul > ol {
 .tit__header {
   width: 80%;
   display: block;
-  font-family: 'Koulen', cursive;
-  font-size: 65px;
+  font-family: "Koulen";
+  font-size: 73px;
   text-align: center;
   margin: auto;
   color: white;
@@ -116,7 +116,7 @@ a {
 
 .tit__header2 {
   width: 100%;
-  font-family: 'Koulen', cursive;
+  font-family: "Koulen";
 }
 
 .titiheader {
